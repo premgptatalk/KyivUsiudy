@@ -1,6 +1,6 @@
 from telegram.ext import ApplicationBuilder
 from handlers.start import start
-from handlers.menus import menu_callback
+from keyboards.menus import menu_callback
 from handlers.digest_fsm import digest_fsm
 
 from handlers.weather import handle_weather_callback
